@@ -13,32 +13,29 @@
   </head>
   <body>
     <div class="nav-banner-container">
-      <nav class="d-flex justify-content-between align-items-center px-5 py-3">
+      <nav
+        class="d-flex justify-content-between align-items-center px-5 py-3 text-white">
         <div class="d-flex justify-content-center align-items-center gap-3">
           <img
             style="height: 28px; width: 38px"
             src="./images/Frame.png"
             alt="" />
-          <h1>Board</h1>
+          <h1 style="font-size: 25px; font-weight: 800">Board</h1>
         </div>
 
-        <ui class="d-flex list-unstyled gap-5">
-          <li>Products</li>
-          <li>Apps & Games</li>
-          <li>features</li>
-          <li>Support</li>
-          <li>about</li>
-        </ui>
-        <img
-          style="height: 17px; width: 17px"
-          class="bg-primary"
-          src="./images/bag.png"
-          alt="" />
+        <ul class="d-flex align-items-center list-unstyled gap-5">
+          <li style="font-weight: 800; font-size: 14px">Products</li>
+          <li style="font-weight: 800; font-size: 14px">Apps & Games</li>
+          <li style="font-weight: 800; font-size: 14px">features</li>
+          <li style="font-weight: 800; font-size: 14px">Support</li>
+          <li style="font-weight: 800; font-size: 14px">about</li>
+        </ul>
+        <img style="height: 17px; width: 17px" src="./images/bag.png" alt="" />
       </nav>
 
       <!-- banner section -->
       <div style="color: white" class="banner">
-        <div class="banner-text">
+        <div class="banner-text p-5">
           <h1
             style="
               font-size: 57.3px;
@@ -47,34 +44,131 @@
               text-transform: uppercase;
             ">
             Let your <br />
-            mind <span>explore</span> <br />
+            mind <span class="colorful-text">explore</span> <br />
             new world
           </h1>
-          <p>
+          <p class="my-5">
             Playing electronic games, whether through consoles, computers,
-            mobile phones or another medium altogether. Gaming is a nuanced term
-            that suggests regular gameplay, possibly as a hobby.
+            <br />
+            mobile phones or another medium altogether. Gaming is a nuanced
+            <br />
+            term that suggests regular gameplay, possibly as a hobby.
           </p>
-          <div class="banner-btn d-flex">
-            <button>Buy now</button>
-            <button>Play now</button>
+          <div class="banner-btn d-flex gap-3">
+            <button class="btn-buy">Buy now</button>
+            <button class="btn-play">Play now</button>
           </div>
-          <div class="banner-numbers d-flex">
-            <div>
-              <h1>300+</h1>
+          <div class="banner-numbers d-flex gap-3 mt-5">
+            <div
+              class="d-flex flex-column justify-content-center align-items-center">
+              <h1 style="font-size: 24px; font-weight: 800" class="text-center">
+                300+
+              </h1>
               <p>Unique style</p>
             </div>
-            <div>
-              <h1>200+</h1>
+            <div
+              class="d-flex flex-column justify-content-center align-items-center">
+              <h1 style="font-size: 24px; font-weight: 800" class="text-center">
+                200+
+              </h1>
               <p>Happy customer</p>
             </div>
-            <div>
-              <h1>500+</h1>
+            <div
+              class="d-flex flex-column justify-content-center align-items-center">
+              <h1 style="font-size: 24px; font-weight: 800" class="text-center">
+                500+
+              </h1>
               <p>Project finished</p>
             </div>
           </div>
         </div>
-        <div class="banner-img"></div>
+        <div
+          class="d-flex justify-content-between align-items-center gap-5 features-container py-1">
+          <div class="d-flex flex-1 gap-2">
+            <img src="./images/star.png" alt="" />
+            <p
+              style="
+                font-size: 30px;
+                font-weight: 800;
+                white-space: nowrap;
+                color: white;
+              ">
+              Gaming spaning
+            </p>
+          </div>
+          <div class="d-flex flex-1 gap-2">
+            <img src="./images/star.png" alt="" />
+            <p
+              style="
+                font-size: 30px;
+                font-weight: 800;
+                white-space: nowrap;
+                color: white;
+              ">
+              Action - packed
+            </p>
+          </div>
+          <div class="d-flex flex-1 gap-2">
+            <img src="./images/star.png" alt="" />
+            <p
+              style="
+                font-size: 30px;
+                font-weight: 800;
+                white-space: nowrap;
+                color: white;
+              ">
+              mind - bending
+            </p>
+          </div>
+          <div class="d-flex flex-1 gap-2">
+            <img src="./images/star.png" alt="" />
+            <p
+              style="
+                font-size: 30px;
+                font-weight: 800;
+                white-space: nowrap;
+                color: white;
+              ">
+              collection og games
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- favorite games section -->
+    <div class="p-5 favorite-games">
+      <h1
+        style="font-weight: 800; font-size: 49px; text-transform: uppercase"
+        class="text-center text-white">
+        choose your <br />
+        <span class="colorful-text"> favorite</span> games
+      </h1>
+      <p style="font-size: 11px" class="text-center text-white">
+        Offer sneak peeks and previews of upcoming games, including <br />
+        trailers, screenshots, and information about release.
+      </p>
+
+      <div
+        class="d-flex flex-column flex-sm-row gap-3 justify-content-center align-items-center w-100">
+        <div class="w-1/3">
+          <img class="img-fluid" src="./images/favgame1.jpg" alt="" />
+        </div>
+        <div class="w-1/3 position-relative">
+          <img class="img-fluid" src="./images/favgame2.png" alt="" />
+          <img
+            class="position-absolute top-0 start-50 translate-middle-x mt-2"
+            src="./images/favIcon.png"
+            alt="" />
+          <p
+            style="font-size: 20px; font-weight: 800; text-transform: uppercase"
+            class="position-absolute bottom-0 start-50 translate-middle-x mb-0 text-white">
+            sneak peeks
+          </p>
+        </div>
+        <div class="w-1/3">
+          <img class="img-fluid" src="./images/favgame3.jpg" alt="" />
+        </div>
       </div>
     </div>
   </body>
